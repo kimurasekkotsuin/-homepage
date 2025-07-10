@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>〇〇接骨院｜地域に根ざした治療院</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header>
+    <div class="container">
+      <h1>〇〇接骨院</h1>
+      <nav>
+        <ul>
+          <li><a href="#about">当院について</a></li>
+          <li><a href="#menu">施術メニュー</a></li>
+          <li><a href="#access">アクセス</a></li>
+          <li><a href="#contact">お問い合わせ</a></li>
+        </ul>
+      </nav>
+      <div class="tel">📞 012-345-6789</div>
+    </div>
+  </header>
+
+  <section class="hero">
+    <div class="container">
+      <h2>体の痛み・不調を根本からケア</h2>
+      <p>経験豊富なスタッフがあなたをサポートします</p>
+    </div>
+  </section>
+
+  <section id="about" class="section">
+    <div class="container">
+      <h2>当院について</h2>
+      <p>地域密着型の接骨院として、腰痛・肩こり・交通事故治療まで幅広く対応しています。</p>
+    </div>
+  </section>
+
+  <section id="menu" class="section">
+    <div class="container">
+      <h2>施術メニュー</h2>
+      <ul>
+        <li>⦿ 骨盤矯正</li>
+        <li>⦿ 姿勢改善</li>
+        <li>⦿ スポーツ障害</li>
+        <li>⦿ 交通事故治療</li>
+      </ul>
+    </div>
+  </section>
+
+  <section id="access" class="section">
+    <div class="container">
+      <h2>アクセス</h2>
+      <p>〒123-4567 愛知県一宮市〇〇町1-2-3<br>
+      駅から徒歩5分・駐車場あり</p>
+      <iframe src="https://maps.google.com/..." width="100%" height="300" style="border:0;" allowfullscreen></iframe>
+    </div>
+  </section>
+
+  <section id="contact" class="section">
+    <div class="container">
+      <h2>お問い合わせ</h2>
+      <p>ご予約・ご相談はお気軽にお電話ください。</p>
+      <p class="phone">📞 012-345-6789</p>
+    </div>
+  </section>
+
+  <footer>
+    <div class="container">
+      <p>&copy; 2025 〇〇接骨院. All Rights Reserved.</p>
+    </div>
+  </footer>
+
+</body>
+</html>
