@@ -3,7 +3,7 @@ body {
   margin: 0;
   padding: 0;
   line-height: 1.6;
-  background-color: #f8f8f8;
+  background-color: #d0f0c0;
   color: #333;
 }
 
@@ -15,7 +15,7 @@ body {
 }
 
 header {
-  background: #f7cdd5;
+  background: #b2d8b2;
   color: #333;
   padding: 10px 0;
 }
@@ -63,7 +63,7 @@ nav a {
 footer {
   text-align: center;
   padding: 20px 0;
-  background: #e8b7c7;
+  background: #b2d8b2;
   color: white;
   font-size: 0.9em;
 }
