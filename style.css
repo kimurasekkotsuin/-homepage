@@ -16,7 +16,7 @@ body {
 }
 
 header {
-  background: #a3b18a; /* 落ち着いたセージグリーン */
+  background: #cdeac0; /* パステルグリーン */
   color: #333;
   padding: 10px 0;
 }
@@ -81,7 +81,7 @@ nav a:hover {
 footer {
   text-align: center;
   padding: 20px 0;
-  background: #a3b18a; /* headerと合わせて */
+  background: #cdeac0; /* headerと合わせて */
   color: #333;
   font-size: 0.9em;
 }
