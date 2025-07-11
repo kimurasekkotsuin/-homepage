@@ -46,7 +46,7 @@ nav a {
 .hero {
   background: url('hero.jpg') no-repeat center center/cover;
   height: 300px;
-  color: #fff;
+  color: #333;
   background-color: #fce4ec;
   display: flex;
   align-items: center;
@@ -87,9 +87,7 @@ footer {
   color: #333;
 }
 
-.business-table tr:nth-child(even) {
-  background-color: #fef3f5; /* 薄ピンク交互表示 */
-}
+
 
 @media screen and (max-width: 768px) {
   .business-table th,
