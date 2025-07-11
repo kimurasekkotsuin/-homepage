@@ -2,9 +2,10 @@ body {
   font-family: 'Helvetica Neue', sans-serif;
   margin: 0;
   padding: 0;
-  line-height: 1.6;
+  line-height: 1.8; /* 行間も少し広げて読みやすく */
   background-color: #d0f0c0; /* 薄いミントグリーン */
   color: #333; /* 文字色はそのまま */
+  font-size: 18px; /* ←基本の文字サイズを大きく */
 }
 
 .container {
@@ -20,9 +21,9 @@ header {
   padding: 10px 0;
 }
 
+
 header h1 {
-  margin: 0;
-  font-size: 1.8em;
+  font-size: 2em; /* 見出しも少し大きく */
 }
 
 nav ul {
@@ -36,10 +37,12 @@ nav a {
   color: #4a7c59; /* 落ち着いた緑系 */
   text-decoration: none;
   font-weight: bold;
-  padding: 0.5em 1em;
+  font-size: 1.1em; /* ナビゲーションも拡大 */
+  padding: 0.75em 1.5em;
   border-radius: 6px;
   transition: background-color 0.3s ease;
 }
+
 
 nav a:hover {
   background-color: #6fbf73; /* 明るめの緑 */
@@ -70,6 +73,11 @@ nav a:hover {
   box-shadow: 0 0 8px rgba(0,0,0,0.1);
 }
 
+.hero h2,
+.section h2 {
+  font-size: 1.8em; /* セクション見出し */
+}
+
 footer {
   text-align: center;
   padding: 20px 0;
@@ -90,6 +98,7 @@ footer {
   border: 1px solid #ddd;
   padding: 10px;
   text-align: center;
+  font-size: 1em; /* 表の文字も少し大きく */
 }
 
 .business-table th {
@@ -106,6 +115,7 @@ button {
   cursor: pointer;
   font-weight: bold;
   transition: background-color 0.3s ease;
+  font-size: 1.1em; /* ボタンの文字も大きく */
 }
 
 button:hover {
